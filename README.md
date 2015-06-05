@@ -48,3 +48,17 @@ inline или строчные элементы отображаются на с
 ![alt text](/images/display-inline-block-2.png "display: inline-block")
 
 [http://codepen.io/dra1n/pen/OVmJdJ](http://codepen.io/dra1n/pen/OVmJdJ)
+
+## display: none vs visibility: hidden
+
+При display: none элемент полностью удаляется из потока при visibility:
+hidden элемент остается в потоке, то есть занимает отведенное для него
+место, но не отображается.
+
+![alt text](/images/visibility-vs-display.png "visibility vs display")
+
+[http://codepen.io/dra1n/pen/mJmyzE](http://codepen.io/dra1n/pen/mJmyzE)
+
+![alt text](/images/visibility-vs-display-2.png "visibility vs display")
+
+[http://codepen.io/dra1n/pen/qdmEKe](http://codepen.io/dra1n/pen/qdmEKe)
