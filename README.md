@@ -145,3 +145,14 @@ position: absolute не оставляет места в потоке для э�
 ![alt text](/images/position-absolute.png "position: absolute")
 
 [http://codepen.io/dra1n/pen/NqjYXK](http://codepen.io/dra1n/pen/NqjYXK)
+
+#### fixed
+
+position: fixed не оставляет места в потоке для элемента. Вместо этого
+позизионирует элемент в указанном месте относительно окна. При скролле
+такой элемент остается на месте. При печати такой элемент выводится на
+каждой странице.
+
+![alt text](/images/position-fixed.png "position: fixed")
+
+[http://codepen.io/dra1n/pen/EjmEzQ](http://codepen.io/dra1n/pen/EjmEzQ)
