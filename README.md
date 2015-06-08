@@ -71,3 +71,61 @@ hidden элемент остается в потоке, то есть заним
 ![alt text](/images/position-relative.png "position: relative")
 
 [http://codepen.io/dra1n/pen/xGdPzp](http://codepen.io/dra1n/pen/xGdPzp)
+
+## floats
+
+Свойство float указывает элементу что он должен быть изъят из
+нормального потока и прижат к левой или правой стороне своего
+контейнера. При этом текст и строчные элементы должны его обтекать.
+
+![alt text](/images/float-right.png "float: right")
+
+[http://codepen.io/dra1n/pen/JdNMXm](http://codepen.io/dra1n/pen/JdNMXm)
+
+#### Позиционирование float элементов
+
+float элемент сдвигается влево или вправо до тех пор пока он не
+прижмется к краю родителя или другого float элемента.
+
+![alt text](/images/float-left-2.png "float: left")
+
+[http://codepen.io/dra1n/pen/OVmzOX](http://codepen.io/dra1n/pen/OVmzOX)
+
+#### Очистка float
+
+Очистка float нужна если:
+
+* Плавающие элементы имеют высоту большую, чем неплавающий контент
+
+![alt text](/images/float-right-3.png "float: right")
+
+[http://codepen.io/dra1n/pen/gpWvmx](http://codepen.io/dra1n/pen/gpWvmx)
+
+* Все вложенные элементы являются плавающими элементами. Здесь же хорошо
+  видно как float элементы удаляются из нормального потока и создают
+свой поток.
+
+![alt text](/images/float-left-4.png "float: left")
+
+[http://codepen.io/dra1n/pen/wadydm](http://codepen.io/dra1n/pen/wadydm)
+
+Стандартная ситуация:
+
+![alt text](/images/float-left-7.png "float: left")
+
+[http://codepen.io/dra1n/pen/xGdWbg](http://codepen.io/dra1n/pen/xGdWbg)
+
+Способы очистки:
+
+* Использование свойства clear для элемента, следующего за контейнером с
+  плавающими элементами. Проблема – несмотря на то, что контейнер снова влияет на
+поток, его собственная высота равна нулю [[http://codepen.io/dra1n/pen/jPmZaQ](http://codepen.io/dra1n/pen/jPmZaQ)]
+
+![alt text](/images/float-left-5.png "float: left")
+
+* Использование свойства clear для элемента, находящегося на одном
+  уровне с плавающими элементами (ручная очистка float). Проблема – требуется дополнительный элемент. [[http://codepen.io/dra1n/pen/QbvQPo](http://codepen.io/dra1n/pen/QbvQPo)]
+
+* clearfix [[http://codepen.io/dra1n/pen/mJmxdL](http://codepen.io/dra1n/pen/mJmxdL)]
+
+![alt text](/images/float-left-6.png "float: left")
