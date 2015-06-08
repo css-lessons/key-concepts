@@ -67,3 +67,7 @@ hidden элемент остается в потоке, то есть заним
 ## position: relative
 
 При заданном position: relative положение элемента устанавливается относительно его исходного места. Добавление свойств left, top, right и bottom изменяет позицию элемента и сдвигает его в ту или иную сторону от первоначального расположения. При этом в потоке для него выделяется место, которое занимал элемент до сдвига.
+
+![alt text](/images/position-relative.png "position: relative")
+
+[http://codepen.io/dra1n/pen/xGdPzp](http://codepen.io/dra1n/pen/xGdPzp)
