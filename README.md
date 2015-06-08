@@ -126,6 +126,8 @@ float элемент сдвигается влево или вправо до т
 * Использование свойства clear для элемента, находящегося на одном
   уровне с плавающими элементами (ручная очистка float). Проблема – требуется дополнительный элемент. [[http://codepen.io/dra1n/pen/QbvQPo](http://codepen.io/dra1n/pen/QbvQPo)]
 
+* Задание overflow контейнеру [[http://codepen.io/dra1n/pen/EjmEPN](http://codepen.io/dra1n/pen/EjmEPN)]
+
 * clearfix [[http://codepen.io/dra1n/pen/mJmxdL](http://codepen.io/dra1n/pen/mJmxdL)]
 
 ![alt text](/images/float-left-6.png "float: left")
