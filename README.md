@@ -131,3 +131,17 @@ float элемент сдвигается влево или вправо до т
 * clearfix [[http://codepen.io/dra1n/pen/mJmxdL](http://codepen.io/dra1n/pen/mJmxdL)]
 
 ![alt text](/images/float-left-6.png "float: left")
+
+## position: absolute (fixed)
+
+#### absolute
+
+position: absolute не оставляет места в потоке для элемента. Вообще.
+Вместо этого позиционирует элемент в указанном месте относительно его
+ближайшего позиционированного родителя (имеющего position relative, fixed или absolute).
+Абсолютно позиционированные элементы могут иметь марджины, которые не
+накладываются ни на какие другие марджины.
+
+![alt text](/images/position-absolute.png "position: absolute")
+
+[http://codepen.io/dra1n/pen/NqjYXK](http://codepen.io/dra1n/pen/NqjYXK)
