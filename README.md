@@ -51,9 +51,7 @@ inline или строчные элементы отображаются на с
 
 ## display: none vs visibility: hidden
 
-При display: none элемент полностью удаляется из потока при visibility:
-hidden элемент остается в потоке, то есть занимает отведенное для него
-место, но не отображается.
+При display: none элемент полностью удаляется из потока. При visibility: hidden элемент остается в потоке, то есть занимает отведенное для него место, но не отображается.
 
 ![alt text](/images/visibility-vs-display.png "visibility vs display")
 
@@ -118,13 +116,13 @@ float элемент сдвигается влево или вправо до т
 Способы очистки:
 
 * Использование свойства clear для элемента, следующего за контейнером с
-  плавающими элементами. Проблема – несмотря на то, что контейнер снова влияет на
+  плавающими элементами. Проблема: несмотря на то, что контейнер снова влияет на
 поток, его собственная высота равна нулю [[http://codepen.io/dra1n/pen/jPmZaQ](http://codepen.io/dra1n/pen/jPmZaQ)]
 
 ![alt text](/images/float-left-5.png "float: left")
 
 * Использование свойства clear для элемента, находящегося на одном
-  уровне с плавающими элементами (ручная очистка float). Проблема – требуется дополнительный элемент. [[http://codepen.io/dra1n/pen/QbvQPo](http://codepen.io/dra1n/pen/QbvQPo)]
+  уровне с плавающими элементами (ручная очистка float). Проблема: требуется дополнительный элемент. [[http://codepen.io/dra1n/pen/QbvQPo](http://codepen.io/dra1n/pen/QbvQPo)]
 
 * Задание overflow контейнеру [[http://codepen.io/dra1n/pen/EjmEPN](http://codepen.io/dra1n/pen/EjmEPN)]
 
