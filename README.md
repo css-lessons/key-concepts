@@ -223,3 +223,10 @@ position: fixed не оставляет места в потоке для эле
 ![alt text](/images/zindex1.png "z-index")
 
 [http://codepen.io/dra1n/pen/XbgbKG](http://codepen.io/dra1n/pen/XbgbKG)
+
+## Bonus (layout)
+
+![alt text](/images/layout.png "layout")
+
+[http://codepen.io/dra1n/pen/XbgbKG](http://codepen.io/dra1n/pen/yNXNEw)
+
