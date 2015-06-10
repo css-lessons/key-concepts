@@ -130,7 +130,7 @@ float элемент сдвигается влево или вправо до т
 
 ![alt text](/images/float-left-6.png "float: left")
 
-## position: absolute (fixed)
+## position: absolute / fixed
 
 #### absolute
 
