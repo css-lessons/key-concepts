@@ -202,3 +202,24 @@ position: fixed не оставляет места в потоке для эле
 ![alt text](/images/transform.png "transforms")
 
 [http://codepen.io/dra1n/pen/ZGKPvO](http://codepen.io/dra1n/pen/ZGKPvO)
+
+## Bonus (z-index)
+
+#### Наложение элементов без указания z-index ([Stacking without z-index](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index/Stacking_without_z-index))
+
+Когда элементы не имеют z-index они накладываются в таком порядке (снизу
+вверх):
+
+* Бекграунд и границы корневого элемента
+* Вложенные элементы в нормальном потоке в порядке появления в HTML коде
+* Вложенные позиционированные элементы в порядке появления в HTML коде
+
+![alt text](/images/zindex2.png "z-index")
+
+[http://codepen.io/dra1n/pen/bdRdYv](http://codepen.io/dra1n/pen/bdRdYv)
+
+#### Контекст вложенности ([Stacking context](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Understanding_z_index/The_stacking_context))
+
+![alt text](/images/zindex1.png "z-index")
+
+[http://codepen.io/dra1n/pen/XbgbKG](http://codepen.io/dra1n/pen/XbgbKG)
